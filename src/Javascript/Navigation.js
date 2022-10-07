@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 function Nav() {
     return (
       <div>
-      <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
