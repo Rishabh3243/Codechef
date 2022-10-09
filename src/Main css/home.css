@@ -1,0 +1,12 @@
+.ab{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .ab{
+        align-content: center;
+        overflow: hidden;
+        position:center;
+        appearance: 'no-repeat';
+    }
+}

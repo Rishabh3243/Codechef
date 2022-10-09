@@ -1,13 +1,13 @@
 import React from "react";
 import img from '../Images/home.png';
-import "../Main css/home.css"
-function Home(){
+import "../Main css/about.css"
+function About(){
     return(
-        <div>
+        <div id="a">
         <img src={img} className="ab">
         </img>
         </div>
     );
 }
 
-export default Home;
+export default About;
