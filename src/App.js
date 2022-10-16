@@ -2,14 +2,12 @@
 import './App.css';
 //import '../src/Javascript/main';
 import Nav from '../src/Javascript/Navigation.js';
-import Home from '../src/Javascript/home.js';
-import About from './Javascript/about';
+import Main from '../src/Javascript/main.js';
 function App() {
   return (
     <div>
     <Nav />
-    <Home />
-    <About />
+    <Main />
     </div>
   );
 }

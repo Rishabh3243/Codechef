@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import logo from '../Images/CodeChef_BVM_Chapter-logo.png';
+import logo from '../Images/CodeChef_BVM_Chapter-logo-2.png';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 //import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../Main css/nav_bar.css';

@@ -1,5 +1,38 @@
+*{
+    
+}
+
 .ab{
     width: 100%;
+    margin: 0%;
+    z-index: 0;
+    background-image: url('../Images/home/1.png');
+}
+
+.ab2{
+    width: 100%;
+    height: 200px;
+    margin-top: 300px;
+    z-index: 1;
+    right: 0;
+    
+}
+
+.ab3{
+    width: 20%;
+    height: 170px;
+    z-index: 0;
+    margin-bottom: -400px;
+    right: 0;
+    animation: sea 20s linear infinite;
+}
+
+
+
+@keyframes sea{
+    100% { 
+        -webkit-transform: translateX(400%);  
+      }
 }
 
 @media screen and (max-width: 768px) {
@@ -8,5 +41,15 @@
         overflow: hidden;
         position:center;
         appearance: 'no-repeat';
+        height: 350px;
+    }
+
+    .ab2{
+        align-content: center;
+        overflow: hidden;
+        position:center;
+        appearance: 'no-repeat';
+        height: 200px;
+        margin-top: 200px;
     }
 }

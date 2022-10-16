@@ -5,8 +5,8 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: #fff;
-  color: black;
+  background-color: rgb(69, 148, 186);
+  color: white;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
@@ -20,7 +20,7 @@
 
 .brand-name {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1.6rem;
   margin-left: 1rem;
 }
@@ -43,6 +43,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  color: white;
 }
 
 .hamburger {
@@ -83,7 +84,7 @@
     /*makes menu span full height and width*/
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: rgb(13, 214, 197);
     border-top: 1px solid black;
   }
   .navigation-menu li {
