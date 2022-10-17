@@ -50,7 +50,7 @@ const [isNavExpanded, setIsNavExpanded] = useState(false)
               <a href="#a">About</a>
             </li>
             <li>
-              <a href="/team">Team</a>
+              <a href="#T">Team</a>
             </li>
             <li>
               <a href="/Event">Events</a>

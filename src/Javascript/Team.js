@@ -4,7 +4,7 @@ import img from "../Images/Team/2.png"
 
 function Team(){
     return(
-      <div className="yo">
+      <div className="yo" id="T">
         <div className="title1">
           <img src={img} className="a1"/>
         </div>
