@@ -1,0 +1,14 @@
+.a{
+    background-image: url("../Images/Events/1.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+}
+
+.a123{
+   margin-left: 40px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   margin-bottom: 300px;
+}
