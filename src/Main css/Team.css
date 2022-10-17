@@ -60,17 +60,28 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: white;
+  background-color: rgb(192, 226, 251);
   transform: translateY(100%);
   transition: all 0.3s;
 }
 .profile-cards .card .card-details-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+  color: rgb(27, 93, 247);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 5px;
   margin-left: -15px;
 }
+
+.profile-cards .card .card-details-title2{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(38, 0, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0%;
+  margin-left: -35px;
+}
+
 .profile-cards .card .card-details-social {
   display: flex;
   align-items: center;

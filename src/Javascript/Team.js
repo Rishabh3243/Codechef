@@ -1,6 +1,7 @@
 import React from "react";
 import "../../src/Main css/Team.css";
 import img from "../Images/Team/2.png"
+import dv from "../Images/Team/Dharmesh Vala.JPG"
 
 function Team(){
     return(
@@ -10,10 +11,10 @@ function Team(){
         </div>
           <div class="profile-cards">
             <div class="card card-1">
-            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"/>
+            <img src={dv}/>
               <div class="card-details">
-                <h3 class="card-details-title">Kailey Nance</h3>
-                <h3 class="card-details-title">Kailey Nance</h3>
+                <h1 class="card-details-title">Dharmesh Vala</h1>
+                <h3 class="card-details-title2">Problem Setter</h3>
                 <div class="card-details-social">
                   <ul>
                     <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
