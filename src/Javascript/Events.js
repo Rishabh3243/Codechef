@@ -4,14 +4,15 @@ import "../Main css/Event.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import img2 from "../Images/Events/3.png";
-
+import img4 from "../Images/Events/4.png"
 
 
 function Event(){
     return(
         <div className="a" >
         <div className="a123">
-        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+        <img className="event23" src={img4} />
+        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" >
                     <div class="carousel-indicators">
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>

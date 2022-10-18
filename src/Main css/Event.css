@@ -6,9 +6,48 @@
 }
 
 .a123{
-   margin-left: 40px;
+   margin-left: 575px;
    margin-top: 200px;
    height: 300px;
    width: 300px;
    margin-bottom: 300px;
+}
+
+.event23{
+    margin-top: -250px;
+    margin-left: -185px;
+    margin-bottom: -2px;
+}
+
+#carouselExampleIndicators{
+    border-radius: 35%;
+    overflow: hidden;
+    height: 370px;
+    width: 370px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .a123{
+        margin-left: 39px;
+        margin-top: 200px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 300px;
+     }
+
+     #carouselExampleIndicators{
+        border-radius: 35%;
+        overflow: hidden;
+        height: 337px;
+        width: 337px;
+    }
+
+    .event23{
+        margin-top: -200px;
+        margin-left: -90px;
+        height: 80%;
+        margin-bottom: 71px;
+    }
+
 }
