@@ -1,6 +1,6 @@
 {
-  "name": "code-chef",
   "homepage": "http://Rishabh3243.github.io/Codechef",
+  "name": "code-chef",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
