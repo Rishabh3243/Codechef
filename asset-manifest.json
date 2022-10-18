@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Codechef/static/css/main.90555992.css",
+    "main.js": "/Codechef/static/js/main.ec0c0f50.js",
+    "static/js/787.bdb67a54.chunk.js": "/Codechef/static/js/787.bdb67a54.chunk.js",
+    "static/media/Dharmesh Vala.JPG": "/Codechef/static/media/Dharmesh Vala.e51bd169f748bf339ccd.JPG",
+    "static/media/Yash Parsana.jpg": "/Codechef/static/media/Yash Parsana.78168e319c706e52e826.jpg",
+    "static/media/home.png": "/Codechef/static/media/home.f2d426d97148cef7fe9c.png",
+    "static/media/CodeChef_BVM_Chapter-logo-2.png": "/Codechef/static/media/CodeChef_BVM_Chapter-logo-2.2b32a556212da663d102.png",
+    "static/media/3.png": "/Codechef/static/media/3.bf0891510fa8e223f8ef.png",
+    "static/media/Shivam Patel.jpg": "/Codechef/static/media/Shivam Patel.1050799dbfb0f57f7e49.jpg",
+    "static/media/1.png": "/Codechef/static/media/1.38623b6f530465783067.png",
+    "static/media/Rishabh Parmar.jpg": "/Codechef/static/media/Rishabh Parmar.719c89b7f595008c4ab7.jpg",
+    "static/media/2.png": "/Codechef/static/media/2.a91cf39ba9255af54d80.png",
+    "static/media/1.jpg": "/Codechef/static/media/1.cece7f106f75524d3423.jpg",
+    "index.html": "/Codechef/index.html",
+    "main.90555992.css.map": "/Codechef/static/css/main.90555992.css.map",
+    "main.ec0c0f50.js.map": "/Codechef/static/js/main.ec0c0f50.js.map",
+    "787.bdb67a54.chunk.js.map": "/Codechef/static/js/787.bdb67a54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90555992.css",
+    "static/js/main.ec0c0f50.js"
+  ]
+}
