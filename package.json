@@ -1,6 +1,6 @@
 {
   "name": "code-chef",
-  "homepage": "http://Rishabh3243.github.io/code-chef",
+  "homepage": "http://Rishabh3243.github.io/Codechef",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,9 +16,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh -page -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
