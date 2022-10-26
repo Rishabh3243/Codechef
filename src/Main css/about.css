@@ -11,6 +11,7 @@
     align-items: center;
 }
 
+
 .small_message {
     text-align: center;
     padding-left: 30px;
@@ -77,7 +78,8 @@
   
   .question {
     font-size: 20px;
-    color: #d5eaea;
+    color: #066c6c;
+    font-weight: 600;
   }
   
   .community_heading {
@@ -87,8 +89,10 @@
   }
   
   .community_info {
-    padding-left: 20%;
+    padding-left: 35%;
     font-size: 20px;
+    margin-bottom: 60px;
+    color: #e9f6f5;
   }
   
   @media screen and (max-width: 768px) {
@@ -110,5 +114,11 @@
             padding-top: 10px;
             margin-right: 20px;
             margin-top: -20px;
+        }
+    
+    .community_info {
+          padding-left: 15%;
+          font-size: 20px;
+          margin-bottom: 60px;
         }
   }

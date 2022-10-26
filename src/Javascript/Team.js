@@ -1,7 +1,7 @@
 import React from "react";
 import "../../src/Main css/Team.css";
 import img from "../Images/Team/2.png"
-import dv from "../Images/Team/Dharmesh Vala.JPG"
+import dv from "../Images/Team/Dharmesh_Vala.JPG"
 import yp from "../Images/Team/Yash Parsana.jpg"
 import sp from "../Images/Team/Shivam Patel.jpg"
 import rp from "../Images/Team/Rishabh Parmar.jpg"

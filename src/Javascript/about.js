@@ -3,6 +3,7 @@ import "../Main css/about.css";
 import img2 from "../Images/About/2.png";
 import logo from "../Images/CodeChef_BVM_Chapter-logo-2.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {AiOutlineCaretRight} from "react-icons/ai";
 function About(){
     return(
         <div id="about20221">
@@ -33,10 +34,15 @@ function About(){
                         </div>
                     </div>
                 </div>
-                <hr/>
                     <div class="community_heading"><u>Community with Benefits &#128540; </u></div><br /><br />
                     <div class="community_info">
-                    <i class="bi bi-caret-right-fill"/> &nbsp;&nbsp;Regular coding contest<br />
+                    <AiOutlineCaretRight/>&nbsp;&nbsp;Regular coding contest<br />
+                    <AiOutlineCaretRight/>&nbsp;&nbsp;Mentorship Program<br />
+                    <AiOutlineCaretRight/>&nbsp;&nbsp;Doubt Solving after every
+                    contest<br />
+                    <AiOutlineCaretRight/>&nbsp;&nbsp;Video Editorial for
+                    different
+                    topic<br />
                     </div>
                     </div>
         </div>

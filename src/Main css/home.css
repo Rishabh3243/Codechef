@@ -5,6 +5,7 @@
     margin: 0%;
     z-index: 0;
     background-image: url('../Images/home/1.png');
+    background-size: cover;
 }
 
 .ab2{

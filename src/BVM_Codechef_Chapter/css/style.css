@@ -1,0 +1,483 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+
+/* nav-bar */
+
+.nav-item:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.active {
+  background-color: rgb(255, 0, 0);
+}
+
+/* nav-bar complete */
+.nbar
+{
+    width: 100vw;
+}
+.banner-image {
+  /* background-image: url('img/banner-img.jpg'); */
+  /* background-size: cover; */
+  background-color: #5252db;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner_info {
+  color: white;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.member_link {
+  height: 46px;
+  width: 150px;
+  font-size: 25px;
+  background-color: #5252db;
+  border: 2px solid white;
+  color: white;
+  margin: auto;
+}
+
+.member_link:hover {
+  color: #5252db;
+  background-color: white;
+}
+
+/* commin header */
+
+.header_content_main {
+  padding-top: 20px;
+  width: 200px;
+  height: 80px;
+  border-bottom: 2px solid #5252db;
+  margin: auto;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.small_message {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+/* about start */
+
+.about_header {
+  text-align: center;
+  background-color: rgb(238, 235, 235);
+  width:100vw;
+}
+
+.about_content {
+  display: grid;
+  width:98vw;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: " about_content_left about_content_right";
+}
+
+.about_content_left {
+  grid-area: about_content_left;
+  padding-left: 30px;
+}
+
+.about_content_right {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-area: about_content_right;
+}
+
+.about_content_right_logo {
+  animation-name: updown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height: 300px;
+}
+
+@keyframes updown {
+  0% {
+    padding-top: 0;
+  }
+  50% {
+    padding-top: 15px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+
+.question {
+  font-size: 20px;
+  color: #5252db;
+}
+
+.community_heading {
+  text-align: center;
+  font-size: 40px;
+  color: #5252db;
+}
+
+.community_info {
+  padding-left: 20%;
+  font-size: 20px;
+}
+
+/* about end */
+
+/* event start */
+
+.event_header {
+  text-align: center;
+  background-color: rgb(238, 235, 235);
+  width:100vw;
+}
+
+.event_content {
+  width: 100%;
+  min-height: 350px;
+  display: grid;
+  text-align: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "college_event codechef_event";
+}
+
+.collge_event {
+  grid-area: college_event;
+  border-right: 1px solid #5252db;
+}
+
+.codechef_event {
+  grid-area: codechef_event;
+}
+
+.subevent_heading {
+  font-size: 25px;
+  color: #5252db;
+}
+
+.subevent_content {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.join_event {
+  padding-top: 8px;
+  font-size: 20px;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  background-color: #5252db;
+  color: white;
+}
+
+.join_event:hover {
+  background-color: white;
+  color: #5252db;
+  border: 2px solid #5252db;
+  font-weight: 600;
+}
+
+.event_icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* event end */
+
+/*teams start */
+
+.teams_header {
+  text-align: center;
+  background-color: rgb(238, 235, 235);
+  width:100vw;
+}
+
+.team_member {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  border: 0px;
+  align-items: center;
+  justify-content: center;
+  /* flex: 0 0 30%; */
+  margin: 6px;
+}
+
+.team_card {
+  height: 320px;
+  width: 300px;
+  /* border:1px solid #5252db; */
+  border-radius: 20px;
+}
+
+.team_card_overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  padding-top: 80px;
+  position: absolute;
+  margin-top: -60px;
+  height: 260px;
+  width: 300px;
+  background-color: #5252dbe0;
+  z-index: 1;
+}
+
+.member_social_media {
+  text-align: center;
+}
+
+.team_sm_icon {
+  color: white;
+}
+
+.team_sm_icon:hover {
+  color: rgb(255, 0, 0);
+}
+
+.member_img {
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+.team_card_overlay:hover {
+  opacity: 1;
+}
+
+.member_info_heading {
+  color: #5252db;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(255, 238, 238);
+  /* background-color:rgb(255, 0, 0); */
+}
+
+.overlay_heading {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* teams end */
+
+/*contact start */
+
+.contact_header {
+  text-align: center;
+  background-color: rgb(238, 235, 235);
+  width:100vw;
+}
+
+.contact-in {
+  width: 95%;
+  min-height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form {
+  color: #5252db;
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact_form_info {
+  padding-left: 30px;
+  text-align: left;
+}
+
+.social_media {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sm_icon:hover {
+  cursor: pointer;
+}
+
+/* contact end */
+
+/* Footer Start */
+
+.footer{
+  width:100vw;
+}
+.footer_info {
+  font-size: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  background-color: #5252db;
+  
+}
+
+.copyright_info {
+  height: 40px;
+  color: rgba(255, 255, 255, 0.418);
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  background-color: black;
+}
+.overlay_heading_res {
+  display: none;
+}
+/* Footer End */
+
+/* Media Query */
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .overlay_heading {
+    display: none;
+  }
+  .overlay_heading_res {
+    display: block;
+  }
+  .team_card_overlay {
+    opacity: 1;
+    background: transparent;
+  }
+  .card {
+    position: relative;
+  }
+  .member_social_media {
+    background-color: rgb(39, 38, 38);
+    pointer-events: all;
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+    height: 60px;
+    position: relative;
+    width: 83%;
+    position: absolute;
+    top: 80%;
+    left: 25px;
+  }
+  .overlay_heading_res {
+    width: 100%;
+    height: 25px;
+    margin: 4;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .member_info_heading {
+    display: block;
+    margin: auto;
+    width: 83%;
+    color: #191955;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(211, 170, 170);
+  }
+  .about_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.6fr;
+    grid-template-areas: "about_content_right" "about_content_left ";
+  }
+  .event_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "college_event" "codechef_event";
+  }
+  .collge_event {
+    border-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .body {
+    margin: 0;
+  }
+  
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .card {
+    margin: auto;
+  }
+  .subevent_content {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-brand {
+    font-size: 12px;
+  }
+  .card {
+    padding-left: 50px;
+  }
+  .subevent_content {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+/* Events */
+
+.clg_event_heading {
+  height: 50px;
+  width: 100%;
+  background-color: #5252db;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+

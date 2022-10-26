@@ -37,7 +37,7 @@
   /*removes default disc bullet for li tags and applies margin to left & right side*/
   list-style-type: none;
   font-size: 25px;
-  margin: 0 1.5rem;
+  margin: 0 1.3rem;
 }
 .navigation-menu li a {
   /*increases the surface area of the anchor tag to span more than just the anchor text*/
@@ -45,6 +45,29 @@
   display: block;
   width: 100%;
   color: white;
+}
+
+.t67:hover #n24 {
+    display: inline;
+  }
+
+.t68{
+  display: none;
+}
+
+#n24 {
+  position:absolute;
+  background-color: rgb(33, 194, 243);
+  padding: 5px;
+  text-align: center;
+  width: 7%;
+  color: white;
+  display: none;
+  border-radius: 5px;
+}
+
+#n24{
+  overflow: hidden;
 }
 
 .hamburger {
@@ -68,6 +91,7 @@
   background-color: #234ae3;
   display: 2s;
 }
+
 
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -122,5 +146,11 @@
     margin: 5px;
     margin-top: 10px;
     margin-left: 30px;
+  }
+  .t67{
+    display: none;
+  }
+  .t68{
+    display: flex;
   }
 }

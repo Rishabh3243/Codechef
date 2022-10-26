@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import logo from '../Images/CodeChef_BVM_Chapter-logo-2.png';
+import {AiOutlineCaretDown} from "react-icons/ai";
 //import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/js/bootstrap.bundle.min';
 import '../Main css/nav_bar.css';
-import { logDOM } from "@testing-library/react";
+//import { logDOM } from "@testing-library/react";
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 function Nav() {
@@ -57,9 +57,13 @@ const [isNavExpanded, setIsNavExpanded] = useState(false)
             </li>
             <li>
               <a href="/Solution">Solution</a>
+            </li>            
+            <li className="t68">
+              <a href="../BVM_Codechef_Chapter/index.html">History</a>
             </li>
-            <li>
-              <a href="/Alumni">Alumni</a>
+            <li className="t67">
+              <a href="/History">History<AiOutlineCaretDown/></a>
+              <a id="n24" href="BVM_Codechef_Chapter/index.html">2021</a>
             </li>
             <li>
               <a href="/Contact">Contact</a>
