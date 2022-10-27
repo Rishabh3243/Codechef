@@ -1,0 +1,30 @@
+#footer123{
+    padding: 60px;
+    background-color: rgb(29, 54, 111);
+    color: aliceblue;
+}
+
+.Footer1234{
+    height: 35px;
+    margin-right: 10px;
+}
+.Footer12344{
+    display:flex;
+}
+.Footer12345{
+    margin-top: 50px;
+}
+.Footer12345 h6{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    #footer123{
+        padding: 40px;
+    }
+    .Footer12345{
+        margin-top: 30px;
+    }
+    .Footer12345 h6{
+        margin-bottom: 20px;
+    }
+}
