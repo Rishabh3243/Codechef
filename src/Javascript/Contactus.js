@@ -2,7 +2,7 @@ import React from "react";
 import '../Main css/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import GoogleMapReact from 'google-map-react';
-
+import {BsLinkedin,BsDiscord,BsInstagram,BsArrowReturnRight} from "react-icons/bs";
 function Contact(){
     return(
             <div className="contact">
@@ -16,11 +16,14 @@ function Contact(){
                     <div className="bottom-section">
                         <div class="contact-map">
                             <div class="mapouter">
-                                    <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Birla%20Vishavakarma%20Mahavidhyala&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+                                    <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Birla%20Vishavakarma%20Mahavidhyala&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"/>
                             </div>
                         </div>
-                        <div>
-                            
+                        <div className="contact-in">
+                            <h2>Reach US</h2>
+                            <button id="cont12"><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"><BsLinkedin size={40}></BsLinkedin>&nbsp;&nbsp;codechef_bvm</a></button>
+                            <button><BsInstagram><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"></a></BsInstagram></button>
+                            <button><BsLinkedin><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"></a></BsLinkedin></button>
                         </div>
                     </div>
                 </div>

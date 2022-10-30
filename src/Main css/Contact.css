@@ -28,13 +28,16 @@
 }
 
 .bottom-section{
-  display: inline;
+  display: flex;
   margin-bottom: 30px;
   background-color: rgba(255, 255, 255, 0.538);
-  padding: 10px;
+  padding: 18px;
+  width: 80%;
+  border-radius: 7px;
 }
   .contact-in {
-    width: 95%;
+    width: 55%;
+    height: 400px;
     min-height: auto;
     margin: auto;
     display: flex;
@@ -45,11 +48,45 @@
     box-shadow: 0px 0px 10px 0px #666;
   }
   
+  .contact-in h2 {
+    color: rgb(45, 85, 100);
+    margin-left: 40%;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact-in button{
+    width: 80%;
+    margin-left: 10%;
+    height: 25%;
+    border-radius: 10px;
+    font-size: larger;
+  }
+
+  .contact-in button a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .contact-in button a:hover{
+    color: black;
+  }
+
   .contact-map {
     height: auto;
-    flex: 50%;
+    margin: auto;
+    border-radius: 6px;
   }
   
+  #cont12{
+    background-color: blue;
+  }
+  
+  #cont12:hover{
+    background-color: white;
+  }
+
   .contact-form {
     color: #5252db;
     width: 100%;
@@ -71,6 +108,29 @@
   
   .sm_icon:hover {
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .bottom-section{
+      display: grid;
+      margin-bottom: 50px;;
+      padding: 10px;
+      width: auto;
+      margin: 30px;
+    }
+    .contact-map {
+      height: 84%;
+      width: 94%;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+    .contact-in {
+      width: 94%;
+      margin-bottom: 20px;
+    }
+    .contact-in h2{
+      margin-left: 31%;
+    }
   }
   
   /* contact end */
