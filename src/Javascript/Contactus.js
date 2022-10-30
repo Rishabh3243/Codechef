@@ -15,6 +15,11 @@ function Contact(){
                     </div>
                     <div className="bottom-section">
                         <div class="contact-map">
+                            <div class="mapouter">
+                                    <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Birla%20Vishavakarma%20Mahavidhyala&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
+                            </div>
+                        </div>
+                        <div>
                             
                         </div>
                     </div>
