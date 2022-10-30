@@ -14,8 +14,26 @@
 .Footer12345{
     margin-top: 50px;
 }
-.Footer12345 h6{
+.Footer12345 h5{
     margin-bottom: 30px;
+}
+.Footer98 {
+    margin-left:20px ;
+}
+.Footer99 {
+    margin-left:20px ;
+}
+.Footer99 p{
+    padding-top: 30px;
+}
+.icon12{
+    color: aliceblue;
+}
+.Footer99 h5{
+    padding-left: 30px;
+}
+.Footer99 p a{
+    padding-left: 30px;
 }
 @media screen and (max-width: 768px) {
     #footer123{
@@ -24,7 +42,17 @@
     .Footer12345{
         margin-top: 30px;
     }
-    .Footer12345 h6{
+    .Footer12345 h5{
         margin-bottom: 20px;
+    }
+    .Footer99 h5{
+        padding-left: 10px;
+    }
+    .Footer99 p a{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .icon12{
+        padding-bottom: 10px;
     }
 }
