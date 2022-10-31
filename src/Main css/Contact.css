@@ -30,7 +30,7 @@
 .bottom-section{
   display: flex;
   margin-bottom: 30px;
-  background-color: rgba(255, 255, 255, 0.538);
+  background-color: rgba(255, 255, 255, 0.423);
   padding: 18px;
   width: 80%;
   border-radius: 7px;
@@ -70,7 +70,7 @@
   }
 
   .contact-in button a:hover{
-    color: black;
+    color: rgb(0, 0, 0);
   }
 
   .contact-map {
@@ -80,11 +80,36 @@
   }
   
   #cont12{
-    background-color: blue;
+    background-color: #0077B5;
+    transition: transform 1s;
   }
   
   #cont12:hover{
-    background-color: white;
+    background-color: rgb(91, 167, 253);
+    box-shadow: 10px 5px 5px black;
+    transform: translate(-5px, -5px);
+  }
+
+  #cont13{
+    background: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    transition: transform 1s;
+  }
+
+  #cont13:hover{
+    background: linear-gradient(to top, #fbe3a0, #fdb781, #ff88bd, #d989f9, #7782f6) ;
+    box-shadow: 10px 5px 5px black;
+    transform: translate(-5px, -5px);
+  }
+
+  #cont14{
+    background-color:#7289da;
+    transition: transform 1s;
+  }
+
+  #cont14:hover{
+    background:#bcc9f7 ;
+    box-shadow: 10px 5px 5px black;
+    transform: translate(-5px, -5px);
   }
 
   .contact-form {

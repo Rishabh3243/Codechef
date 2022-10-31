@@ -29,7 +29,13 @@ function Footer(){
                 <div className="Footer98">
                     <h5> Links </h5> 
                     <p>
-                        <BsArrowReturnRight className="icon12" size={26}/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#Home">Home</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#about20221">About</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#T">Team</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#Events">Events</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#about20221">Solution</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="https://codechefbvm2021.netlify.app/">History-2021</a><br/>
+                        <BsArrowReturnRight className="icon12" size={26}/>&nbsp;&nbsp;<a href="#cont">Contact Us</a><br/>
                     </p>
                 </div>
             </div>
@@ -39,7 +45,7 @@ function Footer(){
                     <p>
                     <a href="https://www.linkedin.com/in/codechef-bvm-chapter/"><BsLinkedin className="icon12" size={36}/></a>
                     <a href=""><BsDiscord className="icon12" size={36}/></a>
-                    <a href=""><BsInstagram className="icon12" size={36}/></a>
+                    <a href="https://www.instagram.com/codechef_bvm/"><BsInstagram className="icon12" size={36}/></a>
                     </p>
                 </div>
             </div>

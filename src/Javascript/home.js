@@ -12,7 +12,7 @@ function Home(){
             <section className="ab">
                 <div className="y1">
                     <img className="ab4" src={img2}/>
-                    <button type="button" class="btn btn-primary" id="r">JOINT US</button>
+                        <a href="https://www.codechef.com/college-chapter/member"><button type="button" class="btn btn-primary" id="r">JOINT US</button></a>
                 </div>
                 <div className="y">
                     <img className="ab3" src={img1}/>

@@ -9,7 +9,7 @@ import img4 from "../Images/Events/4.png"
 
 function Event(){
     return(
-        <div className="a" >
+        <div className="a" id="Events">
         <div className="a123">
         <img className="event23" src={img4} />
         <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" >

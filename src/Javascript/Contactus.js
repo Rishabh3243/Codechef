@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BsLinkedin,BsDiscord,BsInstagram,BsArrowReturnRight} from "react-icons/bs";
 function Contact(){
     return(
-            <div className="contact">
+            <div className="contact" id="cont">
                 <div className="contact-Head">
                     <h1 className="contact-Head-h1">
                         Contact US
@@ -22,8 +22,8 @@ function Contact(){
                         <div className="contact-in">
                             <h2>Reach US</h2>
                             <button id="cont12"><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"><BsLinkedin size={40}></BsLinkedin>&nbsp;&nbsp;codechef_bvm</a></button>
-                            <button><BsInstagram><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"></a></BsInstagram></button>
-                            <button><BsLinkedin><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"></a></BsLinkedin></button>
+                            <button id="cont13"><a href="https://www.instagram.com/codechef_bvm/"><BsInstagram size={40}></BsInstagram>&nbsp;&nbsp;codechef_bvm</a></button>
+                            <button id="cont14"><a href="https://www.linkedin.com/in/codechef-bvm-chapter/"><BsDiscord size={40}></BsDiscord>&nbsp;&nbsp;codechef_bvm</a></button>
                         </div>
                     </div>
                 </div>

@@ -44,16 +44,16 @@ const [isNavExpanded, setIsNavExpanded] = useState(false)
         >
           <ul>
             <li>
-              <a href="/Home">Home</a>
+              <a href="#Home">Home</a>
             </li>
             <li>
-              <a href="#a">About</a>
+              <a href="#about20221">About</a>
             </li>
             <li>
               <a href="#T">Team</a>
             </li>
             <li>
-              <a href="/Event">Events</a>
+              <a href="#Events">Events</a>
             </li>
             <li>
               <a href="/Solution">Solution</a>
@@ -66,7 +66,7 @@ const [isNavExpanded, setIsNavExpanded] = useState(false)
               <a id="n24" href="https://codechefbvm2021.netlify.app/">2021</a>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
+              <a href="#cont">Contact</a>
             </li>
           </ul>
         </div>

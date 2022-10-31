@@ -18,7 +18,14 @@
     margin-bottom: 30px;
 }
 .Footer98 {
-    margin-left:20px ;
+    margin-left:40% ;
+}
+.Footer98 p{
+    margin-top: 22px;
+}
+.Footer98 p a{
+    color: aliceblue;
+    text-decoration: none;
 }
 .Footer99 {
     margin-left:20px ;
@@ -44,6 +51,9 @@
     }
     .Footer12345 h5{
         margin-bottom: 20px;
+    }
+    .Footer98{
+        margin-left: 20%;
     }
     .Footer99 h5{
         padding-left: 10px;
