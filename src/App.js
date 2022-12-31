@@ -6,7 +6,7 @@ import Main from '../src/Javascript/main.js';
 function App() {
   return (
     <div>
-    <Nav />
+    <Nav/>
     <Main />
     </div>
   );
